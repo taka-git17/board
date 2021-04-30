@@ -1,0 +1,13 @@
+■コマンド
+・SQL
+　・データベース作成
+CREATE DATABASE board DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+　・テーブル作成
+create table users(id int not null auto_increment primary key, name varchar(255), mail varchar(255),pass varchar(255));
+
+　・insert into users(id, name, mail, pass) values(3, "a", "aa", "aaa");
+
+　・update users set name = "haru" where id =1;
+
+　

@@ -1,0 +1,30 @@
+【ログイン機能】
+
+■フローチャート
+・ログイン画面の作成
+　・名前とPWの入力欄と送信ボタンを用意する
+　・名前とPWがDBにあれば一覧画面へ
+　　・ログイン用のtable作成をする
+　　・カラム：id、name、mail、pass
+　　　CREATE table 
+　・名前とPWが間違っていればログイン画面へ
+
+
+
+■参考
+・ログイン画面から一覧画面まで
+https://qiita.com/ryo-futebol/items/5fb635199acc2fcbd3ff
+
+
+■コマンド
+・SQL
+　・データベース作成
+CREATE DATABASE board DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+　・テーブル作成
+create table users(id int not null auto_increment primary key, name varchar(255), mail varchar(255),pass varchar(255));
+
+　・insert into users(id, name, mail, pass) values(3, "a", "aa", "aaa");
+
+　・update users set name = "haru" where id =1;
+

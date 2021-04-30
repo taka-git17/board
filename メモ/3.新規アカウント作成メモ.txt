@@ -1,0 +1,21 @@
+【新規アカウント作成】
+
+■フローチャート
+・ログイン画面に遷移ボタンを作成
+・遷移後、アカウントを登録するために、名前、メールアドレス、パスワードを入力する入力欄を準備
+・入力したらDB、usersテーブルに保存されるようにする
+・
+
+
+
+
+■参考
+・ログイン画面から一覧画面まで
+https://qiita.com/ryo-futebol/items/5fb635199acc2fcbd3ff
+
+
+■コマンド
+
+INSERT INTO users(name, mail, pass) VALUES("zz", "zzz", "zzzz")
+
+DELETE FROM users WHERE id = 1;
