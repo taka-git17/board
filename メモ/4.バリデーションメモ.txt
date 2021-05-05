@@ -12,3 +12,12 @@
 ・フォームからvalidateにおくる、
 ・セッションに入れてregisterに送る
 
+
+
+
+■メモ
+・候補
+　・postでvalidateに送る
+　　https://techacademy.jp/magazine/49322
+　・すぐpostで判定
+　　https://qiita.com/wakahara3/items/fbdf23e599a1b7b6cbc6
